@@ -24,8 +24,8 @@
 	$data = [
 		"key"               => $RazorpayKeyId,
 		"amount"            => $amount,
-		"name"              => "Rail Mumbai",
-		"description"       => "Dummy Mumbai railway ticket booking site.",
+		"name"              => "Rail India",
+		"description"       => "Dummy India railway ticket booking site.",
 		"image"             => "https://source.unsplash.com/60x60/?railway",
 		"notes"             => [
 		"address"           => "New Street, Old House, Random Colony",
@@ -45,7 +45,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>RailMumbai</title>
+   <title>RailIndia</title>
    <link rel="shortcut icon" href="assets/favicon.png">
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
@@ -102,9 +102,9 @@
          <div class="overlay position-absolute"></div>
          <div class="container">
             <div class="banner-content position-relative d-flex flex-column align-items-center justify-content-center">
-               <h2 class="text-white display-4">Welcome to RailMumbai</h2>
+               <h2 class="text-white display-4">Welcome to RailIndia</h2>
                <p class="text-white mt-3 mb-5">
-                  Quick Mumbai Local Train Booking
+                  Quick India Local Train Booking
                </p>
             </div>
          </div>
@@ -146,10 +146,10 @@
                            <label for="via">Via</label>
                            <select name="via" class="form-control" id="via" required>
                               <option value="none">none</option>
-                              <option value="Thane">Thane</option>
-                              <option value="Vashi">Vashi</option>
-                              <option value="Snpd">Snpd</option>
-                              <option value="Dadar">Dadar</option>
+                              <option value="PUNE">PUNE</option>
+                              <option value="DELHI">DELHI</option>
+                              <option value="MUMBAI">MUMBAI</option>
+                              <option value="KOLKATA">KOLKATA</option>
                            </select>
                         </div>
                      </div>
@@ -217,10 +217,10 @@
                            <label for="via">Via</label>
                            <select name="via" class="form-control" id="via">
                               <option value="none">none</option>
-                              <option value="Thane">Thane</option>
-                              <option value="Vashi">Vashi</option>
-                              <option value="Snpd">Snpd</option>
-                              <option value="Dadar">Dadar</option>
+                              <option value="PUNE">PUNE</option>
+                              <option value="DELHI">DELHI</option>
+                              <option value="MUMBAI">MUMBAI</option>
+                              <option value="KOLKATA">KOLKATA</option>
                            </select>
                         </div>
                      </div>
@@ -258,7 +258,7 @@
             <div class="row d-flex justify-content-center">
                <div class="menu-content pb-60 col-lg-8">
                   <div class="title text-center">
-                     <h2 class="mb-3">Why Choose RailMumbai to Book Local Tickets ?</h2>
+                     <h2 class="mb-3">Why Choose RailIndia to Book Local Tickets ?</h2>
                   </div>
                </div>
             </div>
