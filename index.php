@@ -32,7 +32,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>RailMumbai LogIn</title>
+	<title>RailIndia LogIn</title>
 	<link rel="shortcut icon" href="assets/favicon.png">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -48,7 +48,7 @@
 	<div class="d-none" id="main">
 		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
 			<div class="container">
-				<a class="navbar-brand" href="index.php">RailMumbai</a>
+				<a class="navbar-brand" href="index.php">RailIndia</a>
 			</div>
 		</nav>
 
